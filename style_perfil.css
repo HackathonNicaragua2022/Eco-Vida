@@ -9,6 +9,10 @@
 
   body {
     font-family: sans-serif;
+    background: url(imagenes/20221101_054604-01\ \(1\).jpg);
+    width: 100%;
+    height: calc(155vh - 61px) !important;
+
 }
 .fondoconfig {
   background: url(imagenes/20221101_054604-01\ \(1\).jpg);
@@ -39,7 +43,7 @@
   
 }
 nav {
-  background: #171717;
+  background: #171717e4;
   height: 60px;
   width: 100%;
 }

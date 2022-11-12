@@ -19,7 +19,7 @@ body{
 /*HEADER*/
 header{
     height: 55px;
-    background: #00000080;
+    background: #0000004b;
     padding: 0px 50px;
     color: #fff;
     display: flex;
@@ -58,10 +58,6 @@ header{
     order: 1;
 }
 
-.active, .menu a:hover{ 
-    border-radius: 5px;
-    background-color: #6B9A4F;  
-}
 
 .mostrar-menu:hover, 
 .ocultar-menu:hover{

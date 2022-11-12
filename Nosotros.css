@@ -1,7 +1,10 @@
 body {
+    background-size: cover;
     background-color: rgb(97, 146, 155);
+    width: 100%;
 }
 .TITULO{
+    
     color:#ffffff; margin: 0px; text-shadow: 3px 3px  0px #221d1d;
 }
    h2{
@@ -51,12 +54,12 @@ body {
         }
         .NOSO{
             width: 1348px;
-            height: 530px;
+            height: 700px;
             display: flex;
             margin-top: 0px;
             align-items: center;
             justify-content: center;
-            background: url(we\ -\ copia.JPG);
+            background: url(imagenes/we\ -\ copia.JPG);
             background-size: cover;
             background-position: center;
         }
@@ -84,7 +87,7 @@ body {
             font-family: sans-serif;
         }
         nav {
-            background: #171717;
+            background: #171717e4;
             height: 60px;
             width: 100%;
         }
