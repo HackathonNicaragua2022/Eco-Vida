@@ -1,0 +1,11 @@
+/*@media del login y del registro*/
+
+@media(min-width:790px)
+{
+    .formulario{
+        margin: auto;
+        width: 500px;
+        margin-top: 6%;
+        border-radius: 2%;
+    }
+}
