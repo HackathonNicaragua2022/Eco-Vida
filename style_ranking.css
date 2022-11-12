@@ -1,0 +1,302 @@
+/*RESET*/
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    font-family: sans-serif;
+    
+}
+ 
+body{
+    background-image:url(./imagenes/677A0674\ \(1\).jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/*HEADER*/
+header{
+    height: 75px;
+    background: #000;
+    padding: 0px 50px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu a{
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px 10px;
+    transition: 0,4s;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.menu {
+    position: relative;
+    margin-right: -20px;
+}
+
+.mostrar-menu, 
+.ocultar-menu{
+    font-size: 30px;
+    cursor: pointer;
+    display: none;
+    transition: 0,4s;
+}
+
+.mostrar-menu{
+    order: 1;
+}
+
+.active, .menu a:hover{ 
+    border-radius: 5px;
+    background-color: #6B9A4F;  
+}
+
+.mostrar-menu:hover, 
+.ocultar-menu:hover{
+    color: #6B9A4F;
+}
+
+#check{
+    display: none;
+}
+/*TABLA RANK*/
+table{
+   width: 100%;
+   height: 50%;
+   border-collapse: collapse;
+   font-size: 25px;
+}
+
+th,td{
+    background-color: #ffffff;
+    font-weight: bold;
+    padding: 15px;
+    text-align: left;
+}
+ 
+td:hover{
+    background-color: rgb(148, 148, 145);
+}
+
+th{
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    position: sticky;
+    top: 0px;
+}
+
+tr td:nth-child(1){
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    width: 10px;
+}
+
+tr th:nth-child(1){
+    text-align: center;
+}
+
+tr th:nth-child(2){
+    text-align: center;
+}
+
+/*FOTOS DE USUARIO*/
+tr td:nth-child(2)::before{
+    content: "";
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-image: url(./imagenes/user.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/*SCROLL*/
+.tabla-scroll{
+    height: 500px;
+    width: 850px;
+    overflow-y: scroll;
+    background: #000000;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2)
+}
+
+.tabla-scroll{
+    position: absolute;
+    bottom: .2rem;
+    margin-left: 50px;
+    border-radius: 10px;
+}
+
+.tabla-scroll::-webkit-scrollbar{
+    width: 15px;
+}
+
+.tabla-scroll::-webkit-scrollbar-thumb{
+    background:  #313f29;
+    border-radius: 0px 10px 10px 0px;
+    height: 125px;
+}
+
+.tabla-scroll::-webkit-scrollbar-thumb:hover{
+    background:  rgb(44, 44, 44);
+}
+
+/*RANK TOP 5*/
+
+.rank{
+    width: 350px;
+    margin-top: 2rem;
+    margin-left: 60rem;
+    padding: 10px;
+}
+
+p{
+    color: #fff;
+    font-size: 20px;
+    padding: 10px;
+}
+
+h1{
+    color: #fff;
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+.container{
+    width: 100%;
+    background-color: #fff;
+}
+
+.skills{
+    text-align: right;
+    padding: 10px;
+    color: #fff;
+    font-weight: bold;    
+}
+
+.exe{
+background-color: rgb(0, 0, 0);
+animation: fill1 5s forwards;
+}
+
+.gabri{
+    background-color: rgb(0, 0, 0);
+    animation: fill2 5s forwards;
+}
+
+.step{
+    background-color: rgb(0, 0, 0);
+    animation: fill3 5s forwards;
+}
+
+.cris{
+    background-color: rgb(0, 0, 0);
+    animation: fill4 5s forwards;
+}
+
+.ces{
+    background-color: rgb(0, 0, 0);
+    animation: fill5 5s forwards;
+}
+
+@keyframes fill1{
+    0%{width: 0;}
+    100%{width: 90%;}
+}
+
+@keyframes fill2{
+    0%{width: 0;}
+    100%{width: 80%;}
+}
+
+@keyframes fill3{
+    0%{width: 0;}
+    100%{width: 70%;}
+}
+
+@keyframes fill4{
+    0%{width: 0;}
+    100%{width: 64%;}
+}
+
+@keyframes fill5{
+    0%{width: 0;}
+    100%{width: 55%;}
+}
+
+.pie {
+    display: flex;
+    width: 100%;
+    background-color: #6B9A4F;
+    position: relative;
+    margin-top: 11rem;
+  }
+  .logopie{
+  display: flex;
+   width: 8rem;
+   height: 8rem;
+   padding-top: 2rem;
+   margin-left: 3rem;
+  }
+
+  .derechos{
+    background-color: #000000;
+    color: aliceblue;
+    text-align: center;
+    height: 2rem;
+    padding-top: 2rem;
+    font-size: 1rem;
+  }
+  
+  .redes {
+    display: flex;
+    gap: 2rem;
+    margin-left: 54rem;
+    padding-top: 3rem;
+  }
+   
+  .redes a {
+    display: block;
+    text-decoration: none;
+    font-size: 2rem;
+    background-color: #6B9A4F;
+    color: aliceblue;
+    transition: all .4s ease-in-out;
+  }
+
+  .redes a:hover {
+    transform: scale(1.2);
+  }
+  
+  .txtforma{
+  font-size: 1rem;
+  color: aliceblue;
+  padding-top: 2rem;
+  margin-left: 1rem;
+  padding-bottom: 1rem;
+  }
+
+  .txte {
+  font-size: 1rem;
+  color: aliceblue;
+  padding-top: 1rem;
+  margin-left: 53rem;
+  }
+
+  .txtc {
+  font-size: 1rem;
+  color: aliceblue;
+  padding-top: 2rem;
+  margin-left: 55rem;
+  }
+

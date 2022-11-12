@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+body {
+    font-family: sans-serif;
+    background: #171717;
+}
+
+
+.header {
+    display: flex;
+}
+
+
+.header {
+    width: 100%;
+    height: calc(100vh - 61px) !important;
+    background: url(imagenes/fondo8.jpg );
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+nav {
+    background: #171717;
+    height: 60px;
+    width: 100%;
+}
+
+.logo {
+    position:absolute;
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+    margin-top: 5px;
+
+}
+
+nav ul {
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 60px;
+    margin: 0 5px ;
+}
+
+nav ul li a {
+    color: #ffffff;
+    font-size: 18px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+
+li a.active, li a:hover {
+    background: #6B9A4F;
+    transition: .5s;
+}
+
+.checkbtn {
+    color: #ffffff;
+    font-size: 30px;
+    float: right;
+    line-height: 60px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+
+.title {
+    margin-top: 1px;
+    margin-left: 54%;
+    margin-right: 53%;
+    justify-content: center;
+    font-size: 85px;
+    font-weight: 80px;
+    text-transform: uppercase;
+    color: #ffffff;
+    background: #171717cf;
+}
+
+
+
+
+/*Boton Refistro*/
+
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 5% 15px;
+    border-radius: 20px;
+    color: #ffff;
+    text-decoration: none;
+    background: #6B9A4F;
+    transition: .50s;
+}
+
+.btn:hover {
+    background: #171717;
+}
+
+/*Boton iniciar*/
+.btn2 {
+    display: inline-block;
+    padding: 5% 30px;
+    background: #6B9A4F;
+    border-radius: 20px;
+    color: azure;
+    text-decoration: none;
+    transition: .50s;
+}
+
+.btn2:hover {
+    background: #171717;
+}
+
+.btn-home {
+    display: flex;
+}
+
+.btn-home a {
+    margin: 0 30px;
+    font-size: 17px;
+    margin-top: 15%;
+}
+
+.content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media screen and (max-width: 952px) {
+     .logo {
+        padding-left: 15px;
+     }
+     nav ul li a {
+        font-size: 16px;
+     }
+} 
+    
+@media screen and (max-width: 858px ) {
+    .checkbtn {
+        display: block;
+    }
+
+    ul {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #171717;
+        top: 60px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+
+    nav ul li a {
+        font-size: 20px;
+    }
+
+    li a:hover, li a.active {
+        background: none;
+        color: #6B9A4F;
+    }
+
+    #check:checked ~ ul {
+        left: 0;
+    }
+
+    .title {
+        font-size: 60px;
+    }
+}
