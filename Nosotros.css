@@ -1,0 +1,205 @@
+body {
+    background-color: rgb(97, 146, 155);
+}
+.TITULO{
+    color:#ffffff; margin: 0px; text-shadow: 3px 3px  0px #221d1d;
+}
+   h2{
+        color: #000000;
+        font-size: 10rem; 
+        text-align:center;
+        margin-top: 5px;
+        margin-bottom: 10px;
+        font-size: 60px;
+    }
+    .CmTrbjms{
+        text-align: center;
+        color: rgb(0, 0, 0);
+        margin-top: 2px;
+    }
+    .ParrafUno{
+    color: #000000;
+    margin-top: 145px;
+    margin-right: 40px;
+    border-radius: 5%;
+    margin-left: 50px;
+    text-align: justify;
+    background-color: #ffffff;
+    height: 415px;
+    font-size: 17px;
+    }
+
+    
+    *{color:rgb(255, 255, 255)}
+    h1{font-size: 70px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        color: #000000;}
+        
+        .NOST{
+            width: 380px;
+            height: 600px;
+            background: url(imagenes/677A7920.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            border-radius: 5%;
+            float: left;
+            margin-left: 140px;
+            margin-right: 130px;
+            margin-top: 50px;
+            margin-bottom: 10px;
+        }
+        .NOSO{
+            width: 1348px;
+            height: 530px;
+            display: flex;
+            margin-top: 0px;
+            align-items: center;
+            justify-content: center;
+            background: url(we\ -\ copia.JPG);
+            background-size: cover;
+            background-position: center;
+        }
+        .parrafoCorreo{color: #ffffff;text-align: center;margin: 3px;}
+        .NOSO-texto{ color: #000000;text-align: center;width: 50%;}
+        .CORREOECVD{color: #ffffff;text-align: center;}
+/*MAPAS GOOGLE CARAZO*/
+    .ParrafosMaps{
+    color: #000000;
+    margin-right: 50px;
+    text-align:left;
+    margin-top: 40px;
+    }
+        .MapaJtp{float: left;margin-left: 100px;margin-top: 119px;}
+        .MapaDba{float: left;margin-left: 110px;margin-top: 110px;}
+        .MapaDrs{float: left;margin-left: 110px;margin-top: 110px;}
+/*-----------BARRA DE MENÚ---------------------*/
+        *{
+            margin: 0;
+            padding: 0;
+            border: 0;
+            font-size: 100%;
+            vertical-align: baseline;
+            text-decoration: none;
+            font-family: sans-serif;
+        }
+        nav {
+            background: #171717;
+            height: 60px;
+            width: 100%;
+        }
+        
+        .logo {
+            color: #ffffff;
+            height: 40px;
+            font-size: 20px;
+            position: absolute;
+            padding: 20px 50px;
+            text-transform: uppercase;
+        }
+        nav ul {
+            float: right;
+            margin-right: 20px;
+        }
+        
+        nav ul li {
+            display: inline-block;
+            line-height: 60px;
+            margin: 0 5px ;
+        }
+        
+        nav ul li a {
+            color: #ffffff;
+            font-size: 18px;
+            padding: 7px 13px;
+            border-radius: 3px;
+            text-transform: uppercase;
+        }
+        
+        li a.active, li a:hover {
+            background: #6B9A4F;
+            transition: .5s;
+        }
+        
+        .checkbtn {
+            color: #ffffff;
+            font-size: 30px;
+            float: right;
+            line-height: 60px;
+            margin-right: 40px;
+            cursor: pointer;
+            display: none;
+        } 
+        #check {
+            display: none;
+        }
+/*TERMINACIÓN DE MENÚ*/
+        .QnsSms{color: #ffffff;margin:0px; margin-top: 60px; margin-bottom: 2px;}
+        .AreTb{ color: #ffffff; margin:0px;margin-top: 60px;}
+
+
+
+
+        .pie {
+            display: flex;
+            width: 100%;
+            background-color: #6B9A4F;
+            
+          }
+          .logopie{
+          display: flex;
+           width: 8rem;
+           height: 8rem;
+           padding-top: 2rem;
+           margin-left: 3rem;
+          
+          }
+          .derechos{
+            background-color: #000000;
+            color: aliceblue;
+            text-align: center;
+            height: 2rem;
+            padding-top: 2rem;
+            font-size: 1rem;
+          }
+          
+          .redes {
+            display: flex;
+            gap: 2rem;
+            margin-left: 54rem;
+            padding-top: 3rem;
+          }
+           
+          .redes a {
+            display: block;
+            text-decoration: none;
+            font-size: 2rem;
+            background-color: #6B9A4F;
+            color: aliceblue;
+            transition: all .4s ease-in-out;
+            
+          }
+          .redes a:hover {
+            transform: scale(1.2);
+          }
+          
+          .txtforma{
+          font-size: 1rem;
+          color: aliceblue;
+          padding-top: 2rem;
+          margin-left: 1rem;
+          padding-bottom: 1rem;
+          }
+          .txte {
+          font-size: 1rem;
+          color: aliceblue;
+          padding-top: 1rem;
+          margin-left: 53rem;
+          }
+          .txtc {
+          font-size: 1rem;
+          color: aliceblue;
+          padding-top: 2rem;
+          margin-left: 55rem;
+          
+          }

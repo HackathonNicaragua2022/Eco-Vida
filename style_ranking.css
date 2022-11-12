@@ -18,8 +18,8 @@ body{
 
 /*HEADER*/
 header{
-    height: 75px;
-    background: #000;
+    height: 55px;
+    background: #00000080;
     padding: 0px 50px;
     color: #fff;
     display: flex;
@@ -27,14 +27,18 @@ header{
     align-items: center;
 }
 
+.logo{
+    position: relative;
+    margin-left: -30px;
+}
+
 .menu a{
     color: #fff;
     text-transform: uppercase;
     text-decoration: none;
-    padding: 10px 10px;
+    padding: 5px 10px;
     transition: 0,4s;
     font-size: 20px;
-    font-weight: bold;
 }
 
 .menu {

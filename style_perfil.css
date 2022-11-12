@@ -9,7 +9,6 @@
 
   body {
     font-family: sans-serif;
-
 }
 .fondoconfig {
   background: url(imagenes/20221101_054604-01\ \(1\).jpg);
@@ -23,7 +22,7 @@
 
 }
 .container1 {
-  background-color: #00000080;
+  background-color: #00000099;
   width: 29%;
   height: 46rem;
   border-radius: 1rem;

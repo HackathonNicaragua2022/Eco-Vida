@@ -378,7 +378,7 @@ width: 18rem;
 float: right;
  
 }
-  }
+ }
   /*Ranking*/
 @media(max-width:390px){
   /*HEADER*/
@@ -401,7 +401,7 @@ float: right;
       position: fixed;
       width: 100%;
       height: 100%;
-      background: #000;
+      background: #171717;
       left: -100%;
       top: 0;
       text-align: center;
@@ -442,5 +442,263 @@ float: right;
       background-image: url(./imagenes/677A0674\ \(1\).jpg);
       height: 1500px;
   }
+}
+/* Escaneo */
+@media screen and (max-width:916px) {
+  .div {
+      width: 40%;
+      display: block;
+  }
+}
 
+@media screen and (max-width: 858px ) {
+
+  nav ul li a {
+      font-size: 20px;
+  }
+
+
+  #check:checked ~ ul {
+      left: 0;
+  }
+
+  
+}
+
+@media screen and (max-width: 696px) {
+  .div {
+      width: 100%;
+      height: 300px;
+  }  
+}
+
+@media screen and (max-width:474) {
+  .div {
+      width: 200%;
+  }
+}
+
+@media screen and (max-width: 405px) {
+
+  nav ul li a {
+      font-size: 15px;
+  }
+
+}
+@media screen and (max-width:916px) {
+  .div {
+      width: 40%;
+      display: block;
+  }
+}
+
+@media screen and (max-width: 858px ) {
+
+  nav ul li a {
+      font-size: 20px;
+  }
+
+
+  #check:checked ~ ul {
+      left: 0;
+  }
+
+  
+}
+
+@media screen and (max-width: 696px) {
+  .div {
+      width: 100%;
+      height: 300px;
+  }  
+}
+
+@media screen and (max-width:474) {
+  .div {
+      width: 200%;
+  }
+}
+
+@media screen and (max-width: 405px) {
+
+  nav ul li a {
+      font-size: 15px;
+  }
+
+}
+@media screen and (max-width:916px) {
+  .div {
+      width: 40%;
+  }
+}
+
+@media screen and (max-width: 858px ) {
+
+  body {
+      height: 100% ;
+  }
+
+
+  nav ul li a {
+      font-size: 20px;
+      margin-right: 20px;
+  }
+
+  .div {
+
+      width: 45%;
+
+  }
+}
+
+@media screen and (max-width: 405px) {
+
+.div {
+  width: 100%;
+  margin-top: 170px;
+  height: 350px;
+}
+
+
+
+.div4 {
+  margin-top: 30px;
+  margin-left: 155px  ;
+} 
+  nav ul li a {
+      font-size: 15px;
+  }
+
+}
+@media screen and (max-width: 858px ) {
+
+  .nav {
+      height: 62px;
+      font-size: 10 px;
+  }
+
+  a {
+      font-size: 15px;
+  }
+
+  nav ul li a {
+      font-size: 17px;
+      margin-right: 1px;
+  }
+
+
+.div {
+  margin-top: 120px;
+  height: 540px;
+  width: 100%;
+
+}
+td,th {
+
+padding-left: 10px;
+padding-right: 10px;
+
+}
+
+
+.div2 {
+
+margin-top: 5px;
+
+}
+
+
+.h3 {
+
+margin-top: 10px;
+}
+
+
+
+.btn2 {
+  padding: 5px;
+  font-size: 15px;
+  margin-bottom: 5px;
+  margin-left: 5px;
+}
+
+.btn3 {
+  font-size: 15px;
+  padding: 5px;
+  margin-right: 5px;
+}
+
+
+}
+@media screen and (max-width: 858px ) {
+
+
+  .nav {
+      height: 62px;
+      font-size: 15px;
+  }
+
+  a {
+      font-size: 15px;
+  }
+
+  nav ul li a {
+      font-size: 17px;
+      margin-right: 1px;
+  }
+
+
+  .div {
+      margin-top: 130px;
+      width: 100%;    
+
+  }
+
+
+  .btn2 {
+      font-size: 15px;
+      padding: 6px;
+  }
+
+  .btn3 {
+      font-size: 15px;
+      padding: 6px;
+  }
+}
+
+@media screen and (max-width: 858px ) {
+
+
+  .nav {
+      height: 62px;
+      font-size: 15px;
+  }
+
+  a {
+      font-size: 15px;
+  }
+
+  nav ul li a {
+      font-size: 17px;
+      margin-right: 1px;
+  }
+
+
+
+  .div {
+      margin-top: 130px;
+      width: 100%;    
+
+  }
+
+
+  .btn2 {
+      font-size: 15px;
+      padding: 6px;
+  }
+
+  .btn3 {
+      font-size: 15px;
+      padding: 6px;
+  }
 }
