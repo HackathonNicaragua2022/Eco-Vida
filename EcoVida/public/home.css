@@ -417,7 +417,8 @@ footer {
     margin-left: 20.5rem;
 }
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 600px) {
+
 
     section {
         padding: 7.9rem;
