@@ -1,0 +1,248 @@
+*{
+    margin: auto;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+.header {
+    display: flex;
+}
+
+body {
+    background: url(imagenes/fondo8.jpg );
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.header {
+    width: 100%;
+    height: calc(100vh - 62px) !important;
+  
+}
+
+
+
+nav {
+    display: block;
+    letter-spacing: 3px;
+    background: #171717bf;
+    height: 60px;
+    width: 100%;
+    
+}
+
+.logo {
+    position:absolute;
+    width: 50px;
+    height: 50px;
+    margin-left: 100px;
+    margin-top: 5px;
+
+}
+
+nav ul {
+    float: right;
+    margin-right: 100px;
+    
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 60px;
+    margin: 0 20px ;
+}
+
+nav ul li a {
+    color: #ffffff;
+    font-size: 14px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    border-bottom: 2px solid rgba(255, 255, 255, .3);
+}
+
+nav ul li a:hover {
+    color: #6B9A4F;
+    transition: .55s;
+}
+
+
+.active {
+    border-bottom: 2px solid rgb(255, 255, 255);
+}
+
+
+.checkbtn {
+    color: #ffffff;
+    font-size: 30px;
+    float: right;
+    line-height: 60px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+
+.div {
+    margin: auto;
+    margin-top: 30px;
+    height: 80vh;
+    color: #ffffff;
+    width: 80%;
+    background: #171717f4;
+    border-radius: 25px;
+}
+
+.div {
+    text-align: center;
+}
+
+.h3 {
+    margin-top: 14px;
+    font-size: 25px;
+}
+
+.div2 {
+    margin-top: 10px;
+    position: relative;
+}
+
+
+table  {
+    margin-top: 30  px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td,th {
+    padding-left: 40px;
+    padding-right: 70px;
+    padding-bottom: 10px;
+}
+
+th {
+    text-transform: uppercase;
+}
+
+td {
+    font-size: 17px;
+}
+
+.btn {
+    margin-top: 50px;
+}
+
+.btn2 {
+    color: #ffffff;
+    margin-top: 10px;
+    padding: 15px;
+    margin-right: 40px;
+    font-size: 15px;
+    background: #6B9A4F;
+    border-radius: 10px;
+    transition: .50s;
+}
+
+.btn3 {
+    color: #ffffff;
+    padding: 15px;
+    margin-left: 14px;
+    font-size: 15px;
+    background: #6B9A4F;
+    border-radius: 10px;
+    transition: .50s;
+}
+
+
+.btn2:hover {
+    border: 1px solid #6B9A4F;
+    background: #171717;
+}
+
+.btn3:hover {
+    border: 1px solid #6B9A4F;
+    background: #171717;
+}
+
+@media screen and (max-width: 858px ) {
+
+        .nav {
+            height: 62px;
+            font-size: 10 px;
+        }
+    
+        a {
+            font-size: 15px;
+        }
+    
+        nav ul li a {
+            font-size: 17px;
+            margin-right: 1px;
+        }
+    
+
+    .div {
+        margin-top: 120px;
+        height: 540px;
+        width: 100%;
+
+    }
+    td,th {
+
+    padding-left: 10px;
+    padding-right: 10px;
+
+    }
+
+
+.div2 {
+
+margin-top: 5px;
+
+}
+
+
+.h3 {
+
+    margin-top: 10px;
+}
+
+
+
+    .btn2 {
+        padding: 5px;
+        font-size: 15px;
+        margin-bottom: 5px;
+        margin-left: 5px;
+    }
+
+    .btn3 {
+        font-size: 15px;
+        padding: 5px;
+        margin-right: 5px;
+    }
+
+    nav ul li a {
+        font-size: 15px;
+    }
+
+    .logo {
+        margin-left: 15px;
+    }
+
+    nav ul {
+        margin-right: 15px;
+    }
+
+
+}
+

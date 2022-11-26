@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+
+body {
+    width: 100%;
+    height: 100vh !important;
+    background: url(imagenes/fondo8.jpg );
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.header {
+    width: 100%;
+    height: 100vh;
+  
+}
+
+
+   nav {
+    background: #171717e4;
+    height: 60px;
+    width: 100%;
+}
+
+.logo {
+    position:absolute;
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+    margin-top: 5px;
+
+}
+
+nav ul {
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 60px;
+    margin: 0 5px ;
+}
+
+nav ul li a {
+    color: #ffffff;
+    font-size: 18px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+
+nav ul li a:hover {
+    color: #6B9A4F;
+    transition: .55s;
+}
+
+.checkbtn{
+    color: #ffffff;
+    font-size: 30px;
+    float: right;
+    line-height: 60px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+
+.div {
+    color: #ffffff;
+    position:relative;
+    background: #171717ef;
+    width: 40%;
+    height: 400px;
+    text-align: center;
+    margin: auto;
+    margin-top: 130px;
+    border-radius: 20px;
+}
+
+
+
+.div4 {
+
+    margin-left:265px;
+    margin-top: 20px;
+    position: fixed;
+    padding: 10px 10px;
+    background: #61929B;
+    border-radius: 5px;
+}
+
+
+.div4:hover {
+    background: #6B9A4F;
+    transition: .5s;
+}
+
+
+.sig {
+    color: #ffffff;
+}
+
+h1 {
+    position: relative;
+    float:initial;
+    color: aliceblue;
+    padding-top: 20px;
+    font-size: 25px;
+}
+/*Nuevo video (quagga)*/
+#camera video{
+	max-width: 100%;
+	width: 100%;
+
+}
+#camera{
+	display: flex;
+	max-width: 70%;
+    margin: auto;
+    margin-top: 30px;
+}
+canvas{
+	max-width: 50%;
+    margin-top: 130px;
+    margin-left: 180px;
+}
+canvas.drawingBuffer{
+	position:absolute;
+	top:0;
+	left:0;
+}
+.res{
+    margin-top: 30px;
+    font-size: 25px;
+}
+
+
+
+@media screen and (max-width:916px) {
+    .div {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 858px ) {
+
+    body {
+        height: 100% ;
+    }
+
+
+    nav ul li a {
+        font-size: 20px;
+        margin-right: 20px;
+    }
+
+    .div {
+
+        width: 45%;
+
+    }
+}
+
+@media screen and (max-width: 405px) {
+
+.div {
+    width: 100%;
+    margin-top: 170px;
+    height: 350px;
+}
+
+
+
+.div4 {
+    margin-top: 30px;
+    margin-left: 155px  ;
+} 
+    nav ul li a {
+        font-size: 15px;
+    }
+
+}
